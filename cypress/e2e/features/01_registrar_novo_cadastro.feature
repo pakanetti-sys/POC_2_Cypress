@@ -19,9 +19,9 @@ Esquema do Cenário: Registrar um novo cadastro com sucesso
 
 Exemplos: Cadastro de usuários
 | usuario    | senha          | mensagem_sucesso      |
-| Joao52$    | Senha123!      | Sign up successful.   |
-| Maria52$   | MinhaSenha@1   | Sign up successful.   |
-| Alex52$    | OutraSenha#2   | Sign up successful.   |
+| Joao523$    | Senha123!      | Sign up successful.   |
+| Maria523$   | MinhaSenha@1   | Sign up successful.   |
+| Alex523$    | OutraSenha#2   | Sign up successful.   |
 
 Esquema do Cenário: Tentar registrar um cadastro com usuário já existente
     Quando eu clico no botão "Sign up"
@@ -33,6 +33,6 @@ Esquema do Cenário: Tentar registrar um cadastro com usuário já existente
 
 Exemplos: Cadastro de usuários
 | usuario    | senha          | mensagem_erro                |
-| Joao52$    | Senha123!      | This user already exist.     |
-| Maria52$   | MinhaSenha@1   | This user already exist.     |
-| Alex52$    | OutraSenha#2   | This user already exist.     |
+| Joao523$    | Senha123!      | This user already exist.     |
+| Maria523$   | MinhaSenha@1   | This user already exist.     |
+| Alex523$    | OutraSenha#2   | This user already exist.     |
